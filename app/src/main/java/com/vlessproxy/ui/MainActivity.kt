@@ -17,6 +17,36 @@ import com.vlessproxy.databinding.ActivityMainBinding
 import com.vlessproxy.model.ConfigRepository
 import com.vlessproxy.model.VlessConfig
 import com.vlessproxy.service.ProxyService
+import android.net.VpnService
+import com.vlessproxy.service.VlessVpnService
+
+private var vpnService: VlessVpnService? = null
+private var vpnBound = false
+
+// 增加 VPN 权限请求 launcher（在 notifPermLauncher 旁边添加）
+private val vpnPermLauncher = registerForActivityResult(
+    ActivityResultContracts.StartActivityForResult()
+) { result ->
+    if (result.resultCode == RESULT_OK) {
+        startVpnService()
+    } else {
+        Toast.makeText(this, "VPN permission denied", Toast.LENGTH_SHORT).show()
+    }
+}
+
+// VPN service 绑定连接
+private val vpnServiceConn = object : ServiceConnection {
+    override fun onServiceConnected(name: ComponentName, binder: IBinder) {
+        vpnService = (binder as VlessVpnService.LocalBinder).getService()
+        vpnBound = true
+        updateUi()
+    }
+    override fun onServiceDisconnected(name: ComponentName) {
+        vpnService = null
+        vpnBound = false
+        updateUi()
+    }
+}
 
 class MainActivity : AppCompatActivity() {
 
@@ -67,7 +97,7 @@ class MainActivity : AppCompatActivity() {
         requestNotificationPermission()
 
         // Bind to service if already running
-        bindService(Intent(this, ProxyService::class.java), serviceConn, 0)
+        bindService(Intent(this, VlessVpnService::class.java), vpnServiceConn, 0)
 
         // Handle vless:// intent
         handleIntent(intent)
@@ -84,7 +114,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
-        if (serviceBound) unbindService(serviceConn)
+//        if (serviceBound) unbindService(serviceConn)
+        if (vpnBound) unbindService(vpnServiceConn)
         super.onDestroy()
     }
 
@@ -144,34 +175,41 @@ class MainActivity : AppCompatActivity() {
     // ── Proxy toggle ──────────────────────────────────────────────────────────
 
     private fun toggleProxy() {
-        val running = proxyService?.isRunning == true
+        val running = vpnService?.isRunning == true
         if (running) {
-            startService(ProxyService.stopIntent(this))
+            startService(VlessVpnService.stopIntent(this))
         } else {
             val cfg = configs.getOrNull(activeIndex)
             if (cfg == null) {
                 Toast.makeText(this, "No configuration selected", Toast.LENGTH_SHORT).show()
                 return
             }
-            val svcIntent = ProxyService.startIntent(this, cfg)
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
-                startForegroundService(svcIntent)
-            else
-                startService(svcIntent)
-
-            // Rebind to get reference
-            if (!serviceBound)
-                bindService(Intent(this, ProxyService::class.java), serviceConn, Context.BIND_AUTO_CREATE)
+            // 请求 VPN 权限
+            val intent = VpnService.prepare(this)
+            if (intent != null) {
+                vpnPermLauncher.launch(intent)
+            } else {
+                startVpnService()
+            }
         }
-
-        // Delay UI update to let service start
         binding.fabToggle.postDelayed({ updateUi() }, 500)
+    }
+
+    private fun startVpnService() {
+        val cfg = configs.getOrNull(activeIndex) ?: return
+        val svcIntent = VlessVpnService.startIntent(this, cfg)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+            startForegroundService(svcIntent)
+        else
+            startService(svcIntent)
+        bindService(Intent(this, VlessVpnService::class.java), vpnServiceConn, Context.BIND_AUTO_CREATE)
     }
 
     // ── UI update ─────────────────────────────────────────────────────────────
 
     private fun updateUi() {
-        val running = proxyService?.isRunning == true
+//        val running = proxyService?.isRunning == true
+        val running = vpnService?.isRunning == true
         val cfg = configs.getOrNull(activeIndex)
 
         binding.fabToggle.text = if (running) "Stop Proxy" else "Start Proxy"

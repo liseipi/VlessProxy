@@ -42,7 +42,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <!-- Handle vless:// URI scheme -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -53,11 +52,23 @@
             </intent-filter>
         </activity>
 
+        <!-- 原有的本地代理 Service（保留备用） -->
         <service
             android:name="com.vlessproxy.service.ProxyService"
             android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="dataSync" />
+
+        <!-- VPN Service —— 必须声明 BIND_VPN_SERVICE 权限 -->
+        <service
+            android:name="com.vlessproxy.service.VlessVpnService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_VPN_SERVICE" >
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
 
         <receiver
             android:name="com.vlessproxy.service.BootReceiver"

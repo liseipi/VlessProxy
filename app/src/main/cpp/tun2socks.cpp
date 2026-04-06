@@ -1,3 +1,4 @@
+// app/src/main/cpp/tun2socks.cpp
 #include <jni.h>
 #include <string>
 #include <cstdlib>
@@ -50,21 +51,19 @@ int start_redirecting_stdout_stderr() {
 
 extern "C"
 JNIEXPORT jint JNICALL
-Java_com_musicses_vlessvpn_Tun2Socks_start_1tun2socks(JNIEnv *env, jclass clazz, jobjectArray args) {
+Java_com_vlessproxy_Tun2Socks_start_1tun2socks(JNIEnv *env, jclass clazz, jobjectArray args) {
     jsize argument_count = env->GetArrayLength(args);
 
-    // 计算所需缓冲区大小
     int c_arguments_size = 0;
     for (int i = 0; i < argument_count; i++) {
         jstring jstr = (jstring) env->GetObjectArrayElement(args, i);
         const char *str = env->GetStringUTFChars(jstr, 0);
         c_arguments_size += strlen(str) + 1;
-        env->ReleaseStringUTFChars(jstr, str);  // 立即释放，避免泄漏
+        env->ReleaseStringUTFChars(jstr, str);
         env->DeleteLocalRef(jstr);
     }
 
     char *args_buffer = (char *) calloc(c_arguments_size, sizeof(char));
-    // 使用 malloc 替代 C99 VLA，兼容 C++ 标准
     char **argv = (char **) malloc(argument_count * sizeof(char *));
 
     char *current_args_position = args_buffer;
@@ -74,7 +73,7 @@ Java_com_musicses_vlessvpn_Tun2Socks_start_1tun2socks(JNIEnv *env, jclass clazz,
         strncpy(current_args_position, current_argument, strlen(current_argument));
         argv[i] = current_args_position;
         current_args_position += strlen(current_args_position) + 1;
-        env->ReleaseStringUTFChars(jstr, current_argument);  // 释放，避免泄漏
+        env->ReleaseStringUTFChars(jstr, current_argument);
         env->DeleteLocalRef(jstr);
     }
 
@@ -90,18 +89,18 @@ Java_com_musicses_vlessvpn_Tun2Socks_start_1tun2socks(JNIEnv *env, jclass clazz,
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_musicses_vlessvpn_Tun2Socks_stopTun2Socks(JNIEnv *env, jclass clazz) {
-    tun2socks_terminate();
+Java_com_vlessproxy_Tun2Socks_stopTun2Socks(JNIEnv *env, jclass clazz) {
+tun2socks_terminate();
 }
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_musicses_vlessvpn_Tun2Socks_printTun2SocksHelp(JNIEnv *env, jclass clazz) {
-    tun2socks_print_help("badvpn-tun2socks");
+Java_com_vlessproxy_Tun2Socks_printTun2SocksHelp(JNIEnv *env, jclass clazz) {
+tun2socks_print_help("badvpn-tun2socks");
 }
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_musicses_vlessvpn_Tun2Socks_printTun2SocksVersion(JNIEnv *env, jclass clazz) {
-    tun2socks_print_version();
+Java_com_vlessproxy_Tun2Socks_printTun2SocksVersion(JNIEnv *env, jclass clazz) {
+tun2socks_print_version();
 }
