@@ -1,15 +1,9 @@
 // Top-level build file
-buildscript {
-    ext.kotlin_version = '1.9.22'
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        // Upgraded AGP to 8.7.2 to be compatible with Gradle 9.4.1
-        classpath 'com.android.tools.build:gradle:9.1.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
+plugins {
+    id 'com.android.application' version '8.7.2' apply false
+    id 'com.android.library' version '8.7.2' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
+    id 'org.jetbrains.kotlin.plugin.parcelize' version '1.9.22' apply false
 }
 
 task clean(type: Delete) {

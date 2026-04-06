@@ -5,11 +5,8 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-7-->INJECTED
 8        android:minSdkVersion="21"
-8-->INJECTED
-9        android:targetSdkVersion="36" />
-9-->INJECTED
+9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:4:5-67
@@ -28,25 +25,24 @@
 15-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:8:22-78
 16
 17    <permission
-17-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+17-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 18        android:name="com.vlessvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-18-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+18-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 19        android:protectionLevel="signature" />
-19-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+19-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 20
 21    <uses-permission android:name="com.vlessvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-21-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
-21-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+21-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 22
 23    <application
 23-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:10:5-52:19
 24        android:allowBackup="true"
 24-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:11:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-25-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+25-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 26        android:debuggable="true"
 27        android:extractNativeLibs="true"
-27-->INJECTED
 28        android:icon="@mipmap/ic_launcher"
 28-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:12:9-43
 29        android:label="@string/app_name"
@@ -128,81 +124,81 @@
 69        </receiver>
 70
 71        <provider
-71-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+71-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5502b997426dbf87c1f8a646ba4ec1fc/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 72            android:name="androidx.startup.InitializationProvider"
-72-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+72-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5502b997426dbf87c1f8a646ba4ec1fc/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
 73            android:authorities="com.vlessvpn.androidx-startup"
-73-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+73-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5502b997426dbf87c1f8a646ba4ec1fc/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
 74            android:exported="false" >
-74-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+74-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5502b997426dbf87c1f8a646ba4ec1fc/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
 75            <meta-data
-75-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+75-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5502b997426dbf87c1f8a646ba4ec1fc/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-76-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+76-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5502b997426dbf87c1f8a646ba4ec1fc/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
 77                android:value="androidx.startup" />
-77-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5502b997426dbf87c1f8a646ba4ec1fc/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 78            <meta-data
-78-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+78-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/70d2828f6b23861d871ca9b7109092ba/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
 79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-79-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+79-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/70d2828f6b23861d871ca9b7109092ba/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
 80                android:value="androidx.startup" />
-80-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+80-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/70d2828f6b23861d871ca9b7109092ba/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
 81            <meta-data
-81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
 82                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
 83                android:value="androidx.startup" />
-83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
 84        </provider>
 85
 86        <uses-library
-86-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+86-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/f727ffbebd26be19400b7b410d0d4bc2/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
 87            android:name="androidx.window.extensions"
-87-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+87-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/f727ffbebd26be19400b7b410d0d4bc2/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
 88            android:required="false" />
-88-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+88-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/f727ffbebd26be19400b7b410d0d4bc2/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
 89        <uses-library
-89-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+89-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/f727ffbebd26be19400b7b410d0d4bc2/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
 90            android:name="androidx.window.sidecar"
-90-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+90-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/f727ffbebd26be19400b7b410d0d4bc2/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
 91            android:required="false" />
-91-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+91-->[androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/f727ffbebd26be19400b7b410d0d4bc2/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
 92
 93        <receiver
-93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
 94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
 95            android:directBootAware="false"
-95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
 96            android:enabled="true"
-96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
 97            android:exported="true"
-97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
 98            android:permission="android.permission.DUMP" >
-98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
 99            <intent-filter>
-99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
 100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
 101            </intent-filter>
 102            <intent-filter>
-102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
 103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
 104            </intent-filter>
 105            <intent-filter>
-105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
 106                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
 107            </intent-filter>
 108            <intent-filter>
-108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
 109                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/c40bd97edecf7019429680f3bbc541ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
 110            </intent-filter>
 111        </receiver>
 112    </application>

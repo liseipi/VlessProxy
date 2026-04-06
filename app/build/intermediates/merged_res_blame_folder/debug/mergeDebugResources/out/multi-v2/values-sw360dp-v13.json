@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.vlessvpn.app-mergeDebugResources-38:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "com.vlessvpn.app-mergeDebugResources-39:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/huiliu/.gradle/caches/9.3.1/transforms/cfca5df6904d0d78289ca5870d6b77f3/transformed/preference-1.2.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "source": "/Users/huiliu/.gradle/caches/9.3.1/transforms/aaac0319eced18f6215696f56fa816e0/transformed/preference-1.2.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

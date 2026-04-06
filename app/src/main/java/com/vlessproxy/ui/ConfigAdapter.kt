@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.vlessproxy.R
+import com.vlessvpn.R
 import com.vlessproxy.model.VlessConfig
 
 class ConfigAdapter(

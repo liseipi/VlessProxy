@@ -1,22 +1,17 @@
 plugins {
     id 'com.android.application'
-}
-
-kotlin {
-    compilerOptions {
-        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
-        freeCompilerArgs.add("-Xopt-in=kotlin.RequiresOptIn")
-    }
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.plugin.parcelize'
 }
 
 android {
     namespace 'com.vlessvpn'
-    compileSdk 36
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.vlessvpn"
         minSdk 21
-        targetSdk 36
+        targetSdk 35
         versionCode 1
         versionName "1.0.0"
     }
@@ -37,6 +32,10 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
+    kotlinOptions {
+        jvmTarget = '17'
+        freeCompilerArgs += ["-Xopt-in=kotlin.RequiresOptIn"]
+    }
 }
 
 dependencies {
@@ -53,5 +52,4 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
-    implementation "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.0.0"
 }

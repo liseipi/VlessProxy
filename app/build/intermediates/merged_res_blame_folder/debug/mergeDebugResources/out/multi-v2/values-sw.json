@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.vlessvpn.app-mergeDebugResources-38:/values-sw/values-sw.xml",
+            "outputFile": "com.vlessvpn.app-mergeDebugResources-39:/values-sw/values-sw.xml",
             "map": [
                 {
-                    "source": "/Users/huiliu/.gradle/caches/9.3.1/transforms/41fc1903b1216726454069b2af254a00/transformed/appcompat-1.7.0/res/values-sw/values-sw.xml",
+                    "source": "/Users/huiliu/.gradle/caches/9.3.1/transforms/9697e3a1eb33d26d06d9f464254eed10/transformed/appcompat-1.7.0/res/values-sw/values-sw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/huiliu/.gradle/caches/9.3.1/transforms/78548ef168de48c370fbbb9d76c07950/transformed/material-1.12.0/res/values-sw/values-sw.xml",
+                    "source": "/Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/res/values-sw/values-sw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,149,251,348,449,556,663,778",
+                        "endColumns": "93,101,96,100,106,106,114,100",
+                        "endOffsets": "144,246,343,444,551,658,773,874"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,120",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3414,3508,3610,3707,3808,3915,4022,10339",
+                        "endColumns": "93,101,96,100,106,106,114,100",
+                        "endOffsets": "3503,3605,3702,3803,3910,4017,4132,10435"
+                    }
+                },
+                {
+                    "source": "/Users/huiliu/.gradle/caches/9.3.1/transforms/62b56438afcb7fd70428ed65c5cf6f7a/transformed/material-1.12.0/res/values-sw/values-sw.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +57,7 @@
                     }
                 },
                 {
-                    "source": "/Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/res/values-sw/values-sw.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,149,251,348,449,556,663,778",
-                        "endColumns": "93,101,96,100,106,106,114,100",
-                        "endOffsets": "144,246,343,444,551,658,773,874"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,120",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3414,3508,3610,3707,3808,3915,4022,10339",
-                        "endColumns": "93,101,96,100,106,106,114,100",
-                        "endOffsets": "3503,3605,3702,3803,3910,4017,4132,10435"
-                    }
-                },
-                {
-                    "source": "/Users/huiliu/.gradle/caches/9.3.1/transforms/cfca5df6904d0d78289ca5870d6b77f3/transformed/preference-1.2.1/res/values-sw/values-sw.xml",
+                    "source": "/Users/huiliu/.gradle/caches/9.3.1/transforms/aaac0319eced18f6215696f56fa816e0/transformed/preference-1.2.1/res/values-sw/values-sw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

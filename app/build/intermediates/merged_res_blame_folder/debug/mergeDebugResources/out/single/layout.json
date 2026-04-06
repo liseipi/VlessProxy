@@ -1,14 +1,14 @@
 [
     {
-        "merged": "com.vlessvpn.app-mergeDebugResources-39:/layout/dialog_edit_config.xml",
-        "source": "com.vlessvpn.app-main-42:/layout/dialog_edit_config.xml"
+        "merged": "com.vlessvpn.app-mergeDebugResources-40:/layout/item_config.xml",
+        "source": "com.vlessvpn.app-main-43:/layout/item_config.xml"
     },
     {
-        "merged": "com.vlessvpn.app-mergeDebugResources-39:/layout/activity_main.xml",
-        "source": "com.vlessvpn.app-main-42:/layout/activity_main.xml"
+        "merged": "com.vlessvpn.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.vlessvpn.app-main-43:/layout/activity_main.xml"
     },
     {
-        "merged": "com.vlessvpn.app-mergeDebugResources-39:/layout/item_config.xml",
-        "source": "com.vlessvpn.app-main-42:/layout/item_config.xml"
+        "merged": "com.vlessvpn.app-mergeDebugResources-40:/layout/dialog_edit_config.xml",
+        "source": "com.vlessvpn.app-main-43:/layout/dialog_edit_config.xml"
     }
 ]
