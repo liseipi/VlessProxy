@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.vlessvpn"
+3    package="com.vlessproxy"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -26,12 +26,12 @@
 16
 17    <permission
 17-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
-18        android:name="com.vlessvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18        android:name="com.vlessproxy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 18-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 19        android:protectionLevel="signature" />
 19-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 20
-21    <uses-permission android:name="com.vlessvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21    <uses-permission android:name="com.vlessproxy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 21-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 21-->[androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 22
@@ -58,7 +58,7 @@
 34-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:17:9-44
 35        <activity
 35-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:19:9-35:20
-36            android:name="com.vlessvpn.ui.MainActivity"
+36            android:name="com.vlessproxy.ui.MainActivity"
 36-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:20:13-44
 37            android:exported="true"
 37-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:21:13-36
@@ -98,7 +98,7 @@
 55
 56        <service
 56-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:37:9-41:56
-57            android:name="com.vlessvpn.service.ProxyService"
+57            android:name="com.vlessproxy.service.ProxyService"
 57-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:38:13-49
 58            android:enabled="true"
 58-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:39:13-35
@@ -109,7 +109,7 @@
 61
 62        <receiver
 62-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:43:9-50:20
-63            android:name="com.vlessvpn.service.BootReceiver"
+63            android:name="com.vlessproxy.service.BootReceiver"
 63-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:44:13-49
 64            android:enabled="true"
 64-->/Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:45:13-35
@@ -127,7 +127,7 @@
 71-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5502b997426dbf87c1f8a646ba4ec1fc/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 72            android:name="androidx.startup.InitializationProvider"
 72-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5502b997426dbf87c1f8a646ba4ec1fc/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-73            android:authorities="com.vlessvpn.androidx-startup"
+73            android:authorities="com.vlessproxy.androidx-startup"
 73-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5502b997426dbf87c1f8a646ba4ec1fc/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
 74            android:exported="false" >
 74-->[androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5502b997426dbf87c1f8a646ba4ec1fc/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37

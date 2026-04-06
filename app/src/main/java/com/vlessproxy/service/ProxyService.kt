@@ -8,7 +8,7 @@ import android.os.Build
 import android.os.IBinder
 import androidx.core.app.NotificationCompat
 import androidx.lifecycle.LifecycleService
-import com.vlessvpn.R
+import com.vlessproxy.R
 import com.vlessproxy.model.VlessConfig
 import com.vlessproxy.ui.MainActivity
 

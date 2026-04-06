@@ -100,14 +100,13 @@ class Socks5Handler(
         else
             vlessHdr
 
-        var tunnel: WsTunnel? = null
         val parser = VlessResponseParser { payload ->
             try { output.write(payload); output.flush() } catch (_: Exception) {}
         }
 
         val openResult = CompletableDeferred<Boolean>()
 
-        tunnel = WsTunnel(
+        var tunnel = WsTunnel(
             cfg = cfg,
             onOpen = { ws ->
                 ws.send(firstPkt)

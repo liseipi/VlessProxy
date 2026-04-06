@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.vlessvpn.app-mergeDebugResources-39:/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "com.vlessproxy.app-mergeDebugResources-39:/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
                     "source": "/Users/huiliu/.gradle/caches/9.3.1/transforms/62b56438afcb7fd70428ed65c5cf6f7a/transformed/material-1.12.0/res/values-pt-rPT/values-pt-rPT.xml",

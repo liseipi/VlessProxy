@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.vlessvpn'
+    namespace 'com.vlessproxy'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.vlessvpn"
+        applicationId "com.vlessproxy"
         minSdk 21
         targetSdk 35
         versionCode 1
@@ -34,7 +34,7 @@ android {
 
     kotlinOptions {
         jvmTarget = '17'
-        freeCompilerArgs += ["-Xopt-in=kotlin.RequiresOptIn"]
+        freeCompilerArgs += ["-opt-in=kotlin.RequiresOptIn"]
     }
 }
 

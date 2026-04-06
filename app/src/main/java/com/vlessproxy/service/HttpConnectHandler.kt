@@ -56,7 +56,7 @@ class HttpConnectHandler(
         }
 
         if (method == "CONNECT") {
-            handleConnect(url, rawOut, input)
+            handleConnect(url, rawOut)
         } else {
             handleHttp(method, url, headers, input, rawOut)
         }
@@ -66,8 +66,7 @@ class HttpConnectHandler(
 
     private suspend fun handleConnect(
         url: String,
-        rawOut: OutputStream,
-        input: BufferedReader
+        rawOut: OutputStream
     ) {
         val colonIdx = url.lastIndexOf(':')
         val host = url.substring(0, colonIdx)
@@ -216,8 +215,7 @@ class HttpConnectHandler(
             try { rawOut.write(payload); rawOut.flush() } catch (_: Exception) {}
         }
         val openResult = CompletableDeferred<Boolean>()
-        var tunnel: WsTunnel? = null
-        tunnel = WsTunnel(
+        val tunnel = WsTunnel(
             cfg = cfg,
             onOpen = { ws -> ws.send(firstPkt); openResult.complete(true) },
             onMessage = { data -> parser.feed(data) },

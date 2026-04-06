@@ -125,7 +125,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/huiliu/.gradle/cache
 		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:16:9-48
 	android:usesCleartextTraffic
 		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:17:9-44
-activity#com.vlessvpn.ui.MainActivity
+activity#com.vlessproxy.ui.MainActivity
 ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:19:9-35:20
 	android:launchMode
 		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:22:13-43
@@ -163,7 +163,7 @@ data
 ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:33:17-48
 	android:scheme
 		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:33:23-45
-service#com.vlessvpn.service.ProxyService
+service#com.vlessproxy.service.ProxyService
 ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:37:9-41:56
 	android:enabled
 		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:39:13-35
@@ -173,7 +173,7 @@ ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml
 		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:41:13-53
 	android:name
 		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:38:13-49
-receiver#com.vlessvpn.service.BootReceiver
+receiver#com.vlessproxy.service.BootReceiver
 ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:43:9-50:20
 	android:enabled
 		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:45:13-35
@@ -343,7 +343,7 @@ ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transf
 		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
-permission#com.vlessvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.vlessproxy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
@@ -353,7 +353,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
-uses-permission#com.vlessvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.vlessproxy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/ea9c9587c4d370c7a27f1014b0825ded/transformed/core-1.13.1/AndroidManifest.xml:26:22-94

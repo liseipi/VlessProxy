@@ -12,8 +12,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.vlessvpn.R
-import com.vlessvpn.databinding.ActivityMainBinding
+import com.vlessproxy.R
+import com.vlessproxy.databinding.ActivityMainBinding
 import com.vlessproxy.model.ConfigRepository
 import com.vlessproxy.model.VlessConfig
 import com.vlessproxy.service.ProxyService

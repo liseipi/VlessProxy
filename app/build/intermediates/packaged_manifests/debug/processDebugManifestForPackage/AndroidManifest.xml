@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vlessvpn"
+    package="com.vlessproxy"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -15,10 +15,10 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <permission
-        android:name="com.vlessvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.vlessproxy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.vlessvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.vlessproxy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -33,7 +33,7 @@
         android:theme="@style/Theme.VlessProxy"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.vlessvpn.ui.MainActivity"
+            android:name="com.vlessproxy.ui.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:windowSoftInputMode="adjustResize" >
@@ -54,13 +54,13 @@
         </activity>
 
         <service
-            android:name="com.vlessvpn.service.ProxyService"
+            android:name="com.vlessproxy.service.ProxyService"
             android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="dataSync" />
 
         <receiver
-            android:name="com.vlessvpn.service.BootReceiver"
+            android:name="com.vlessproxy.service.BootReceiver"
             android:enabled="true"
             android:exported="false" >
             <intent-filter>
@@ -70,7 +70,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.vlessvpn.androidx-startup"
+            android:authorities="com.vlessproxy.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
