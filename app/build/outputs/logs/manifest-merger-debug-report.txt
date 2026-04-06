@@ -1,0 +1,407 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:2:1-54:12
+MERGED from [androidx.databinding:viewbinding:9.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/861d14faebf6c4b22955b51c19922b46/transformed/viewbinding-9.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/78548ef168de48c370fbbb9d76c07950/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/huiliu/.gradle/caches/9.3.1/transforms/981f7d2ccbe3aa44779c56b1af7abde4/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/9461f0655d3f5076e3d5352b55ee6658/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/055c837a7a3192937a1faae61e3e47a6/transformed/preference-ktx-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/cfca5df6904d0d78289ca5870d6b77f3/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/41fc1903b1216726454069b2af254a00/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/26845644461ac1b50016b62ee38a5676/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/63ac1154b1e5ee8d0d92f9465e9b2abd/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/58eac417ac7da26b9b9867492e4aa091/transformed/fragment-ktx-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/huiliu/.gradle/caches/9.3.1/transforms/b6495c965fb0ada20b69c53c2376c046/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/6b39d95926c846ba3178269a0c7defe3/transformed/activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5ef3828e4a21ec41a4edf16a0b04eb55/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/74b37ec5337cc60736c99593ab0e2690/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/1c32d5bba633c95d5750216dd75a9fec/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/d3ea6285c2a12dbabacdd6aaf2125b27/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b72d81f810b191468315a43824994963/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/cabeda54a9b14534ebefce5c3e1a19ff/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/4647d3d6e19221720429b6c62381084b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/a539e42a738ce78d01a370ef57fc8a04/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/3533d3ec1d6e4ccc1e605ca34c4caa6c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/995c8cf6391ba9ead221856b9ab77c0e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/ec72f3ec61e613e9885e1d4dd03871d3/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/ddf10f91045705105abcd732e41e797d/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/35e82521962b7fbeda5d53124a934a4f/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/9df30fce88dfc6985f316177c29b5824/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/8f64d2d2888b2cc9ae42cac9f26095ce/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/611e764a2672df4067516b100209da14/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/4894f2a7a1d844de5e1738a98a866601/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/b1d91eeebfd06b909d645c7a177e1206/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/d4950a2b872fa532b893a34ee7a3a2f7/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/b6c441e2bc784810a2ecc30bdb02ce5c/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/90f6935ca8063f0f5241317c0bf102db/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/047a4e898baa4abc64edd3f5e41718be/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/7ae42d597f2693ff95e753571a61a446/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/01f73dd7c0c39fc6cb0cd167e2a0c7f9/transformed/lifecycle-service-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/770e1b2f82ada853367e3ac6207871e1/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/212f74ee46bdc584671810375036105d/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/bc33049a44185909612902d619651a60/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/73c68170ac4ebf645dc7e1beb74d7f73/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/24bdd3e22ec923068f1038540dc33e79/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/334588447110ea45eda773b6e3995d53/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/be9fb3c9ce89179e1ba264d5d7fd5681/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5c0f1396eb18f0230f6ffb4465006e76/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/0821b26429aabcc4bee2e145dbdade97/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/8df971f0634ba683a0bd4295b691aa8d/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/76579ef1ba96deac4ad96f619e0b342d/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/0b0b891dd4f73681b08d5886202f6b05/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/3f574e18542f3d46b1aaeab352911861/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:5:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:6:5-87
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:6:22-84
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:7:22-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:10:5-52:19
+INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:10:5-52:19
+MERGED from [com.google.android.material:material:1.12.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/78548ef168de48c370fbbb9d76c07950/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/78548ef168de48c370fbbb9d76c07950/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/huiliu/.gradle/caches/9.3.1/transforms/981f7d2ccbe3aa44779c56b1af7abde4/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/huiliu/.gradle/caches/9.3.1/transforms/981f7d2ccbe3aa44779c56b1af7abde4/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/be9fb3c9ce89179e1ba264d5d7fd5681/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/be9fb3c9ce89179e1ba264d5d7fd5681/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5c0f1396eb18f0230f6ffb4465006e76/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5c0f1396eb18f0230f6ffb4465006e76/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:16:9-48
+	android:usesCleartextTraffic
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:17:9-44
+activity#com.vlessvpn.ui.MainActivity
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:19:9-35:20
+	android:launchMode
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:22:13-43
+	android:windowSoftInputMode
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:23:13-55
+	android:exported
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:20:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:26:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:vless
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:29:13-34:29
+action#android.intent.action.VIEW
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:31:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:32:27-75
+data
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:33:17-48
+	android:scheme
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:33:23-45
+service#com.vlessvpn.service.ProxyService
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:37:9-41:56
+	android:enabled
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:40:13-37
+	android:foregroundServiceType
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:41:13-53
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:38:13-49
+receiver#com.vlessvpn.service.BootReceiver
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:43:9-50:20
+	android:enabled
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:44:13-49
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:47:13-49:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:48:17-79
+	android:name
+		ADDED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml:48:25-76
+uses-sdk
+INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml
+INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:9.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/861d14faebf6c4b22955b51c19922b46/transformed/viewbinding-9.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:9.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/861d14faebf6c4b22955b51c19922b46/transformed/viewbinding-9.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/78548ef168de48c370fbbb9d76c07950/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/78548ef168de48c370fbbb9d76c07950/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/huiliu/.gradle/caches/9.3.1/transforms/981f7d2ccbe3aa44779c56b1af7abde4/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/huiliu/.gradle/caches/9.3.1/transforms/981f7d2ccbe3aa44779c56b1af7abde4/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/9461f0655d3f5076e3d5352b55ee6658/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/9461f0655d3f5076e3d5352b55ee6658/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/055c837a7a3192937a1faae61e3e47a6/transformed/preference-ktx-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/055c837a7a3192937a1faae61e3e47a6/transformed/preference-ktx-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/cfca5df6904d0d78289ca5870d6b77f3/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/cfca5df6904d0d78289ca5870d6b77f3/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/41fc1903b1216726454069b2af254a00/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/41fc1903b1216726454069b2af254a00/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/26845644461ac1b50016b62ee38a5676/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/26845644461ac1b50016b62ee38a5676/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/63ac1154b1e5ee8d0d92f9465e9b2abd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/63ac1154b1e5ee8d0d92f9465e9b2abd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/58eac417ac7da26b9b9867492e4aa091/transformed/fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/58eac417ac7da26b9b9867492e4aa091/transformed/fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/huiliu/.gradle/caches/9.3.1/transforms/b6495c965fb0ada20b69c53c2376c046/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/huiliu/.gradle/caches/9.3.1/transforms/b6495c965fb0ada20b69c53c2376c046/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/6b39d95926c846ba3178269a0c7defe3/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/6b39d95926c846ba3178269a0c7defe3/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5ef3828e4a21ec41a4edf16a0b04eb55/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/5ef3828e4a21ec41a4edf16a0b04eb55/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/74b37ec5337cc60736c99593ab0e2690/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/74b37ec5337cc60736c99593ab0e2690/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/1c32d5bba633c95d5750216dd75a9fec/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/1c32d5bba633c95d5750216dd75a9fec/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/d3ea6285c2a12dbabacdd6aaf2125b27/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/d3ea6285c2a12dbabacdd6aaf2125b27/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b72d81f810b191468315a43824994963/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b72d81f810b191468315a43824994963/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/cabeda54a9b14534ebefce5c3e1a19ff/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/cabeda54a9b14534ebefce5c3e1a19ff/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/4647d3d6e19221720429b6c62381084b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/4647d3d6e19221720429b6c62381084b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/a539e42a738ce78d01a370ef57fc8a04/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/a539e42a738ce78d01a370ef57fc8a04/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/3533d3ec1d6e4ccc1e605ca34c4caa6c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/3533d3ec1d6e4ccc1e605ca34c4caa6c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/995c8cf6391ba9ead221856b9ab77c0e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/995c8cf6391ba9ead221856b9ab77c0e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/ec72f3ec61e613e9885e1d4dd03871d3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/ec72f3ec61e613e9885e1d4dd03871d3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/ddf10f91045705105abcd732e41e797d/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/ddf10f91045705105abcd732e41e797d/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/35e82521962b7fbeda5d53124a934a4f/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/35e82521962b7fbeda5d53124a934a4f/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/9df30fce88dfc6985f316177c29b5824/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/9df30fce88dfc6985f316177c29b5824/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/8f64d2d2888b2cc9ae42cac9f26095ce/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/8f64d2d2888b2cc9ae42cac9f26095ce/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/611e764a2672df4067516b100209da14/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/611e764a2672df4067516b100209da14/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/4894f2a7a1d844de5e1738a98a866601/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/4894f2a7a1d844de5e1738a98a866601/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/b1d91eeebfd06b909d645c7a177e1206/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/b1d91eeebfd06b909d645c7a177e1206/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/d4950a2b872fa532b893a34ee7a3a2f7/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/d4950a2b872fa532b893a34ee7a3a2f7/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/b6c441e2bc784810a2ecc30bdb02ce5c/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/b6c441e2bc784810a2ecc30bdb02ce5c/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/90f6935ca8063f0f5241317c0bf102db/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/90f6935ca8063f0f5241317c0bf102db/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/047a4e898baa4abc64edd3f5e41718be/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/047a4e898baa4abc64edd3f5e41718be/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/7ae42d597f2693ff95e753571a61a446/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/7ae42d597f2693ff95e753571a61a446/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/01f73dd7c0c39fc6cb0cd167e2a0c7f9/transformed/lifecycle-service-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/01f73dd7c0c39fc6cb0cd167e2a0c7f9/transformed/lifecycle-service-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/770e1b2f82ada853367e3ac6207871e1/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/770e1b2f82ada853367e3ac6207871e1/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/212f74ee46bdc584671810375036105d/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/212f74ee46bdc584671810375036105d/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/bc33049a44185909612902d619651a60/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/bc33049a44185909612902d619651a60/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/73c68170ac4ebf645dc7e1beb74d7f73/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/73c68170ac4ebf645dc7e1beb74d7f73/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/24bdd3e22ec923068f1038540dc33e79/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/24bdd3e22ec923068f1038540dc33e79/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/334588447110ea45eda773b6e3995d53/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/334588447110ea45eda773b6e3995d53/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/be9fb3c9ce89179e1ba264d5d7fd5681/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/be9fb3c9ce89179e1ba264d5d7fd5681/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5c0f1396eb18f0230f6ffb4465006e76/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5c0f1396eb18f0230f6ffb4465006e76/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/0821b26429aabcc4bee2e145dbdade97/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/0821b26429aabcc4bee2e145dbdade97/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/8df971f0634ba683a0bd4295b691aa8d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/8df971f0634ba683a0bd4295b691aa8d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/76579ef1ba96deac4ad96f619e0b342d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/76579ef1ba96deac4ad96f619e0b342d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/0b0b891dd4f73681b08d5886202f6b05/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/0b0b891dd4f73681b08d5886202f6b05/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/3f574e18542f3d46b1aaeab352911861/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/3f574e18542f3d46b1aaeab352911861/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/huiliu/www/android/VlessProxy/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5c0f1396eb18f0230f6ffb4465006e76/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5c0f1396eb18f0230f6ffb4465006e76/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/742f401d0032861a49b0b3601c897597/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/huiliu/.gradle/caches/9.3.1/transforms/b2d498f30de7e36d0d10d819c80d535a/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.vlessvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.vlessvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/1f7188073e3504e8fb7b8424c7a727bd/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/huiliu/.gradle/caches/9.3.1/transforms/66b34bb489b72c54e01874937b3a77c8/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/huiliu/.gradle/caches/9.3.1/transforms/5bafb4c879ca1a36b42d90e15ddbc56e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

@@ -1,0 +1,7 @@
+com.vlessvpn.app-pngs-0 /Users/huiliu/www/android/VlessProxy/app/build/generated/res/pngs/debug
+com.vlessvpn.app-updated_navigation_xml-1 /Users/huiliu/www/android/VlessProxy/app/build/generated/updated_navigation_xml/debug
+com.vlessvpn.app-packageDebugResources-2 /Users/huiliu/www/android/VlessProxy/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.vlessvpn.app-packageDebugResources-3 /Users/huiliu/www/android/VlessProxy/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.vlessvpn.app-debug-4 /Users/huiliu/www/android/VlessProxy/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.vlessvpn.app-debug-5 /Users/huiliu/www/android/VlessProxy/app/src/debug/res
+com.vlessvpn.app-main-6 /Users/huiliu/www/android/VlessProxy/app/src/main/res
